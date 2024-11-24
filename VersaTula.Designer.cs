@@ -1,6 +1,6 @@
 ﻿namespace LanguageClassificationApp
 {
-    partial class Form1
+    partial class VersaTula
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(768, 450);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

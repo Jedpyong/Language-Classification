@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace LanguageClassificationApp
 {
-    public partial class Form1 : Form
+    public partial class VersaTula : Form
     {
-        public Form1()
+        public VersaTula()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
