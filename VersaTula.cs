@@ -21,5 +21,21 @@ namespace LanguageClassificationApp
         {
 
         }
+
+        private async void button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string inputText = input.Text; // Get text from TextBox
+                LanguagePredictor detector = new LanguagePredictor();
+                string language = await detector.DetectLanguageAsync(inputText);
+
+                output.Text = $"Detected Language: {language}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
     }
 }
