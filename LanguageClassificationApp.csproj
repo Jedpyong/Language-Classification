@@ -76,6 +76,12 @@
     <Compile Include="Note.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\GameOver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Help.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -106,6 +112,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>

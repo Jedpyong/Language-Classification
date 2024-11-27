@@ -28,10 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.inputTextBox = new Guna.UI.WinForms.GunaTextBox();
             this.languageLabel = new Guna.UI.WinForms.GunaLabel();
             this.submitBttn = new Guna.UI.WinForms.GunaButton();
             this.helpBttn = new Guna.UI.WinForms.GunaLabel();
+            this.gameLabels = new Guna.UI.WinForms.GunaPanel();
+            this.placeholder_language = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.timerLabel = new Guna.UI.WinForms.GunaLabel();
+            this.gameLabels.SuspendLayout();
             this.SuspendLayout();
             // 
             // inputTextBox
@@ -44,6 +50,7 @@
             this.inputTextBox.FocusedBorderColor = System.Drawing.Color.White;
             this.inputTextBox.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.inputTextBox.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inputTextBox.ForeColor = System.Drawing.Color.DarkGray;
             this.inputTextBox.Location = new System.Drawing.Point(425, 153);
             this.inputTextBox.MultiLine = true;
             this.inputTextBox.Name = "inputTextBox";
@@ -59,24 +66,24 @@
             // 
             this.languageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.languageLabel.AutoSize = true;
-            this.languageLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.languageLabel.Font = new System.Drawing.Font("Cooper Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.languageLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.languageLabel.Location = new System.Drawing.Point(644, 103);
+            this.languageLabel.Location = new System.Drawing.Point(3, 9);
             this.languageLabel.Name = "languageLabel";
-            this.languageLabel.Size = new System.Drawing.Size(304, 38);
+            this.languageLabel.Size = new System.Drawing.Size(296, 32);
             this.languageLabel.TabIndex = 1;
-            this.languageLabel.Text = "This round is Tagalog.";
+            this.languageLabel.Text = "Language Required:";
             // 
             // submitBttn
             // 
             this.submitBttn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.submitBttn.AnimationHoverSpeed = 0.07F;
             this.submitBttn.AnimationSpeed = 0.03F;
-            this.submitBttn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(205)))));
+            this.submitBttn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(184)))), ((int)(((byte)(146)))));
             this.submitBttn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(163)))), ((int)(((byte)(115)))));
             this.submitBttn.BorderSize = 1;
             this.submitBttn.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitBttn.ForeColor = System.Drawing.Color.Black;
+            this.submitBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(85)))), ((int)(((byte)(57)))));
             this.submitBttn.Image = null;
             this.submitBttn.ImageSize = new System.Drawing.Size(20, 20);
             this.submitBttn.Location = new System.Drawing.Point(687, 568);
@@ -89,8 +96,9 @@
             this.submitBttn.Radius = 10;
             this.submitBttn.Size = new System.Drawing.Size(215, 71);
             this.submitBttn.TabIndex = 2;
-            this.submitBttn.Text = "Submit";
+            this.submitBttn.Text = "Start";
             this.submitBttn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.submitBttn.Click += new System.EventHandler(this.submitBttn_Click);
             // 
             // helpBttn
             // 
@@ -100,21 +108,61 @@
             this.helpBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
             this.helpBttn.Location = new System.Drawing.Point(1387, 13);
             this.helpBttn.Name = "helpBttn";
-            this.helpBttn.Size = new System.Drawing.Size(188, 30);
+            this.helpBttn.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
+            this.helpBttn.Size = new System.Drawing.Size(193, 30);
             this.helpBttn.TabIndex = 3;
             this.helpBttn.Text = "How to play?";
             this.helpBttn.Click += new System.EventHandler(this.helpBttn_Click);
+            // 
+            // gameLabels
+            // 
+            this.gameLabels.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.gameLabels.Controls.Add(this.timerLabel);
+            this.gameLabels.Controls.Add(this.placeholder_language);
+            this.gameLabels.Controls.Add(this.languageLabel);
+            this.gameLabels.Font = new System.Drawing.Font("Cooper Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gameLabels.Location = new System.Drawing.Point(442, 92);
+            this.gameLabels.Name = "gameLabels";
+            this.gameLabels.Size = new System.Drawing.Size(714, 55);
+            this.gameLabels.TabIndex = 4;
+            // 
+            // placeholder_language
+            // 
+            this.placeholder_language.AutoSize = true;
+            this.placeholder_language.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placeholder_language.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.placeholder_language.Location = new System.Drawing.Point(303, 4);
+            this.placeholder_language.Name = "placeholder_language";
+            this.placeholder_language.Size = new System.Drawing.Size(0, 41);
+            this.placeholder_language.TabIndex = 2;
+            // 
+            // timer
+            // 
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // timerLabel
+            // 
+            this.timerLabel.AutoSize = true;
+            this.timerLabel.Font = new System.Drawing.Font("Cooper Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.timerLabel.Location = new System.Drawing.Point(612, 9);
+            this.timerLabel.Name = "timerLabel";
+            this.timerLabel.Size = new System.Drawing.Size(90, 32);
+            this.timerLabel.TabIndex = 5;
+            this.timerLabel.Text = "00:00";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gameLabels);
             this.Controls.Add(this.helpBttn);
             this.Controls.Add(this.submitBttn);
-            this.Controls.Add(this.languageLabel);
             this.Controls.Add(this.inputTextBox);
             this.Name = "Main";
             this.Size = new System.Drawing.Size(1578, 671);
+            this.gameLabels.ResumeLayout(false);
+            this.gameLabels.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,5 +174,9 @@
         private Guna.UI.WinForms.GunaLabel languageLabel;
         private Guna.UI.WinForms.GunaButton submitBttn;
         private Guna.UI.WinForms.GunaLabel helpBttn;
+        private Guna.UI.WinForms.GunaPanel gameLabels;
+        private System.Windows.Forms.Label placeholder_language;
+        private System.Windows.Forms.Timer timer;
+        private Guna.UI.WinForms.GunaLabel timerLabel;
     }
 }

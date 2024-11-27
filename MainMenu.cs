@@ -39,6 +39,7 @@ namespace LanguageClassificationApp
         {
             HomeScreen home = new HomeScreen();
             home.Show();
+            this.Hide();
         }
     }
 }

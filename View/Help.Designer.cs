@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.backBttn = new Guna.UI.WinForms.GunaCirclePictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.backBttn)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaLabel1
@@ -56,14 +58,29 @@
             this.gunaLabel2.TabIndex = 5;
             this.gunaLabel2.Text = resources.GetString("gunaLabel2.Text");
             // 
+            // backBttn
+            // 
+            this.backBttn.BaseColor = System.Drawing.Color.White;
+            this.backBttn.Image = ((System.Drawing.Image)(resources.GetObject("backBttn.Image")));
+            this.backBttn.Location = new System.Drawing.Point(15, 14);
+            this.backBttn.Name = "backBttn";
+            this.backBttn.Size = new System.Drawing.Size(60, 60);
+            this.backBttn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backBttn.TabIndex = 6;
+            this.backBttn.TabStop = false;
+            this.backBttn.UseTransfarantBackground = false;
+            this.backBttn.Click += new System.EventHandler(this.backBttn_Click);
+            // 
             // Help
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.backBttn);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
             this.Name = "Help";
             this.Size = new System.Drawing.Size(1578, 671);
+            ((System.ComponentModel.ISupportInitialize)(this.backBttn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,5 +90,6 @@
 
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private Guna.UI.WinForms.GunaCirclePictureBox backBttn;
     }
 }

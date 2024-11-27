@@ -17,5 +17,10 @@ namespace LanguageClassificationApp.View
             InitializeComponent();
            
         }
+
+        private void backBttn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
