@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace LanguageClassificationApp
 {
-    public partial class Form1 : Form
+    public partial class HomeScreen : Form
     {
         private Main mainControl;
-        public Form1()
+        public HomeScreen()
         {
             InitializeComponent();
             mainControl = new Main();

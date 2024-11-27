@@ -25,6 +25,7 @@ C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageCl
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\Language.53E0F027.Up2Date
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.exe
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.pdb
-C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.Form1.resources
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.Main.resources
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.Help.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.HomeScreen.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.MainMenu.resources
