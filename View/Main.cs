@@ -17,13 +17,22 @@
         {
             private int timeLeft;
             private string language;
+            private int round;
+            public string poemLine;
+
+            
             public Main()
             {
                 InitializeComponent();
                 timer = new Timer();
                 timer.Interval = 1000;
                 timer.Tick += timer_Tick;
-            }
+                round = 0;
+                submitBttn.Enabled = !string.IsNullOrWhiteSpace(inputTextBox.Text);
+
+
+
+        }
 
             private void inputTextBox_Enter(object sender, EventArgs e)
             {
@@ -69,14 +78,52 @@
 
             private void submitBttn_Click(object sender, EventArgs e)
             {
-                timeLeft = 30;
-                timerLabel.Text = TimeSpan.FromSeconds(timeLeft).ToString(@"mm\:ss");
-                timer.Start();
-                submitBttn.Text = "Submit";
+             // the problem is that onl thefourth round was printed on the victory page, and after you succeed  you cant proceed to the gam,since the start button was disabled
+                inputTextBox.Enabled = true;
+                round++;
 
+                // Randomizing language requirement
                 placeholder_language.Text = randomLanguage();
 
-                
+                if (round <= 5)
+                {
+                    // Start a new round with the timer running
+                    timeLeft = 30; 
+                    timerLabel.Text = TimeSpan.FromSeconds(timeLeft).ToString(@"mm\:ss");
+                    timer.Start();
+                    roundNum.Text = round.ToString();
+                    submitBttn.Text = "Submit";
+
+                    // Append the last phrase to the Note    
+                    Note note = new Note();
+                    note.AddPhrase(inputTextBox.Text);
+                    poemLine = note.AppendPhrase();
+            }
+                else
+                {
+                    roundNum.Text = "0";
+                    placeholder_language.Text = "";
+                    inputTextBox.Text = "Enter your text here...";
+
+                    // Pass the poemLine to the Victory form to display it
+                    Victory complete = new Victory();
+                    complete.Dock = DockStyle.Fill;
+                    this.Controls.Add(complete);
+                    complete.BringToFront();
+
+                    // Set the poem (or note) as a property of the Victory form
+                    complete.SetPoem(poemLine); 
+
+                    // Reset round count and the timer
+                    round = 0;
+                    timer.Stop(); 
+                    timeLeft = 0;
+                    timerLabel.Text = TimeSpan.FromSeconds(timeLeft).ToString(@"mm\:ss");
+
+                    submitBttn.Text = "Start New Game"; 
+                }
+
+            inputTextBox.Text = "";
             }
 
             private string randomLanguage()
@@ -85,5 +132,17 @@
                 string[] languages = { "TAGALOG", "ENGLISH", "CEBUANO" };
                 return languages[random.Next(languages.Length)];
             }
+
+        private void inputTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(inputTextBox.Text))
+            {
+                submitBttn.Enabled = false;
+            }
+            else
+            {
+                submitBttn.Enabled = true;
+            }
         }
+    }
     }

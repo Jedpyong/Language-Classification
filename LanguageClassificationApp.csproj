@@ -53,7 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fonts\PrivateFontCollection.cs" />
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +93,12 @@
     <Compile Include="View\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Victory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\Victory.Designer.cs">
+      <DependentUpon>Victory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,8 +126,9 @@
     <EmbeddedResource Include="View\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Fonts\Modak-Regular.ttf" />
-    <None Include="Fonts\Montserrat-ExtraBold.ttf" />
+    <EmbeddedResource Include="View\Victory.resx">
+      <DependentUpon>Victory.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
