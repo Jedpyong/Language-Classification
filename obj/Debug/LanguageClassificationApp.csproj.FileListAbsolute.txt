@@ -12,3 +12,21 @@ C:\Users\USER\source\repos\Language-Classification\obj\Debug\LanguageClassificat
 C:\Users\USER\source\repos\Language-Classification\obj\Debug\Language.53E0F027.Up2Date
 C:\Users\USER\source\repos\Language-Classification\obj\Debug\LanguageClassificationApp.exe
 C:\Users\USER\source\repos\Language-Classification\obj\Debug\LanguageClassificationApp.pdb
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\bin\Debug\LanguageClassificationApp.exe.config
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\bin\Debug\LanguageClassificationApp.exe
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\bin\Debug\LanguageClassificationApp.pdb
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.csproj.AssemblyReference.cache
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.VersaTula.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.Properties.Resources.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.csproj.GenerateResource.cache
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.csproj.CoreCompileInputs.cache
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\Language.53E0F027.Up2Date
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.exe
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.pdb
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.Main.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.Help.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.HomeScreen.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.MainMenu.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.GameOver.resources
