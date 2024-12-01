@@ -34,10 +34,14 @@
             this.submitBttn = new Guna.UI.WinForms.GunaButton();
             this.helpBttn = new Guna.UI.WinForms.GunaLabel();
             this.gameLabels = new Guna.UI.WinForms.GunaPanel();
+            this.timerLabel = new Guna.UI.WinForms.GunaLabel();
             this.placeholder_language = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.timerLabel = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.roundNum = new Guna.UI.WinForms.GunaLabel();
             this.gameLabels.SuspendLayout();
+            this.gunaPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // inputTextBox
@@ -46,6 +50,7 @@
             this.inputTextBox.BaseColor = System.Drawing.Color.White;
             this.inputTextBox.BorderColor = System.Drawing.Color.Silver;
             this.inputTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.inputTextBox.Enabled = false;
             this.inputTextBox.FocusedBaseColor = System.Drawing.Color.White;
             this.inputTextBox.FocusedBorderColor = System.Drawing.Color.White;
             this.inputTextBox.FocusedForeColor = System.Drawing.SystemColors.ControlText;
@@ -54,11 +59,13 @@
             this.inputTextBox.Location = new System.Drawing.Point(425, 153);
             this.inputTextBox.MultiLine = true;
             this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.Padding = new System.Windows.Forms.Padding(10);
             this.inputTextBox.PasswordChar = '\0';
             this.inputTextBox.Radius = 20;
             this.inputTextBox.Size = new System.Drawing.Size(731, 341);
             this.inputTextBox.TabIndex = 0;
             this.inputTextBox.Text = "Enter your text here...";
+            this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
             this.inputTextBox.Enter += new System.EventHandler(this.inputTextBox_Enter);
             this.inputTextBox.Leave += new System.EventHandler(this.inputTextBox_Leave);
             // 
@@ -66,11 +73,11 @@
             // 
             this.languageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.languageLabel.AutoSize = true;
-            this.languageLabel.Font = new System.Drawing.Font("Cooper Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.languageLabel.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.languageLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.languageLabel.Location = new System.Drawing.Point(3, 9);
+            this.languageLabel.Location = new System.Drawing.Point(3, 10);
             this.languageLabel.Name = "languageLabel";
-            this.languageLabel.Size = new System.Drawing.Size(296, 32);
+            this.languageLabel.Size = new System.Drawing.Size(338, 36);
             this.languageLabel.TabIndex = 1;
             this.languageLabel.Text = "Language Required:";
             // 
@@ -106,7 +113,7 @@
             this.helpBttn.AutoSize = true;
             this.helpBttn.Font = new System.Drawing.Font("Cooper Black", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.helpBttn.Location = new System.Drawing.Point(1387, 13);
+            this.helpBttn.Location = new System.Drawing.Point(1382, 13);
             this.helpBttn.Name = "helpBttn";
             this.helpBttn.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
             this.helpBttn.Size = new System.Drawing.Size(193, 30);
@@ -116,15 +123,26 @@
             // 
             // gameLabels
             // 
-            this.gameLabels.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.gameLabels.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.gameLabels.Controls.Add(this.timerLabel);
             this.gameLabels.Controls.Add(this.placeholder_language);
             this.gameLabels.Controls.Add(this.languageLabel);
-            this.gameLabels.Font = new System.Drawing.Font("Cooper Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gameLabels.Font = new System.Drawing.Font("Cooper Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gameLabels.Location = new System.Drawing.Point(442, 92);
             this.gameLabels.Name = "gameLabels";
             this.gameLabels.Size = new System.Drawing.Size(714, 55);
             this.gameLabels.TabIndex = 4;
+            // 
+            // timerLabel
+            // 
+            this.timerLabel.AutoSize = true;
+            this.timerLabel.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.timerLabel.Location = new System.Drawing.Point(594, 5);
+            this.timerLabel.Name = "timerLabel";
+            this.timerLabel.Size = new System.Drawing.Size(117, 41);
+            this.timerLabel.TabIndex = 5;
+            this.timerLabel.Text = "00:00";
             // 
             // placeholder_language
             // 
@@ -140,21 +158,45 @@
             // 
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
-            // timerLabel
+            // gunaLabel1
             // 
-            this.timerLabel.AutoSize = true;
-            this.timerLabel.Font = new System.Drawing.Font("Cooper Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.timerLabel.Location = new System.Drawing.Point(612, 9);
-            this.timerLabel.Name = "timerLabel";
-            this.timerLabel.Size = new System.Drawing.Size(90, 32);
-            this.timerLabel.TabIndex = 5;
-            this.timerLabel.Text = "00:00";
+            this.gunaLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Cooper Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel1.Location = new System.Drawing.Point(3, 10);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(190, 46);
+            this.gunaLabel1.TabIndex = 5;
+            this.gunaLabel1.Text = "ROUND ";
+            // 
+            // gunaPanel1
+            // 
+            this.gunaPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPanel1.Controls.Add(this.roundNum);
+            this.gunaPanel1.Controls.Add(this.gunaLabel1);
+            this.gunaPanel1.Location = new System.Drawing.Point(702, 3);
+            this.gunaPanel1.Name = "gunaPanel1";
+            this.gunaPanel1.Size = new System.Drawing.Size(268, 62);
+            this.gunaPanel1.TabIndex = 6;
+            // 
+            // roundNum
+            // 
+            this.roundNum.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.roundNum.AutoSize = true;
+            this.roundNum.Font = new System.Drawing.Font("Cooper Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roundNum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.roundNum.Location = new System.Drawing.Point(199, 7);
+            this.roundNum.Name = "roundNum";
+            this.roundNum.Size = new System.Drawing.Size(44, 46);
+            this.roundNum.TabIndex = 6;
+            this.roundNum.Text = "0";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.gameLabels);
             this.Controls.Add(this.helpBttn);
             this.Controls.Add(this.submitBttn);
@@ -163,6 +205,8 @@
             this.Size = new System.Drawing.Size(1578, 671);
             this.gameLabels.ResumeLayout(false);
             this.gameLabels.PerformLayout();
+            this.gunaPanel1.ResumeLayout(false);
+            this.gunaPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +222,8 @@
         private System.Windows.Forms.Label placeholder_language;
         private System.Windows.Forms.Timer timer;
         private Guna.UI.WinForms.GunaLabel timerLabel;
+        private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaPanel gunaPanel1;
+        private Guna.UI.WinForms.GunaLabel roundNum;
     }
 }

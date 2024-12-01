@@ -30,3 +30,4 @@ C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageCl
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.HomeScreen.resources
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.MainMenu.resources
 C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.GameOver.resources
+C:\Users\Leonilo Molar\Source\Repos\Language-Classification\obj\Debug\LanguageClassificationApp.View.Victory.resources
