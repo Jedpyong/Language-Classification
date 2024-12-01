@@ -19,6 +19,8 @@ namespace LanguageClassificationApp.View
         
         private void retryBttn_Click(object sender, EventArgs e)
         {
+            HomeScreen homeScreen = new HomeScreen();
+            homeScreen.Show();
             this.Hide();
         }
 

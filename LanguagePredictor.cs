@@ -13,7 +13,7 @@ namespace LanguageClassificationApp
         private static readonly HttpClient client = new HttpClient();
         public async Task<string> DetectLanguageAsync(string inputText)
         {
-            var url = "http://4ec5-34-80-37-196.ngrok-free.app/predict";  // change Flask server URL every new run of server
+            var url = "https://a4c2-34-80-37-196.ngrok-free.app/predict";  // change Flask server URL every new run of server
 
             var requestBody = new
             {

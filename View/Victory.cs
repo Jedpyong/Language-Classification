@@ -25,6 +25,8 @@ namespace LanguageClassificationApp.View
 
         private void backBttn_Click(object sender, EventArgs e)
         {
+            HomeScreen home = new HomeScreen();
+            home.Show();
             this.Hide();
         }
 
