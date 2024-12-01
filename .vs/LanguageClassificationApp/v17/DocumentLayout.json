@@ -1,25 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Language-Classification\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\leonilo molar\\source\\repos\\language-classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\languagepredictor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:languagepredictor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\leonilo molar\\source\\repos\\language-classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\user\\source\\repos\\language-classification\\versatula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:versatula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\versatula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:versatula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\leonilo molar\\source\\repos\\language-classification\\view\\victory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\victory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\leonilo molar\\source\\repos\\language-classification\\view\\victory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\victory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\leonilo molar\\source\\repos\\language-classification\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\versatula.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:versatula.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -29,13 +57,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 253,
+          "DockedWidth": 771,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -43,8 +67,8 @@
           ]
         },
         {
-          "DockedWidth": 821,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 303,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,66 +88,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\Note.cs",
-              "RelativeDocumentMoniker": "Note.cs",
-              "ToolTip": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\Note.cs",
-              "RelativeToolTip": "Note.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "HomeScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\HomeScreen.cs",
+              "RelativeDocumentMoniker": "HomeScreen.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\HomeScreen.cs [Design]",
+              "RelativeToolTip": "HomeScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:12:33.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T10:29:03.229Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Victory.cs",
-              "DocumentMoniker": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Victory.cs",
-              "RelativeDocumentMoniker": "View\\Victory.cs",
-              "ToolTip": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Victory.cs",
-              "RelativeToolTip": "View\\Victory.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAAFAAAAAAAAAA==",
+              "Title": "VersaTula.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.cs",
+              "RelativeDocumentMoniker": "VersaTula.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.cs [Design]",
+              "RelativeToolTip": "VersaTula.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:37:56.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Victory.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Victory.cs",
-              "RelativeDocumentMoniker": "View\\Victory.cs",
-              "ToolTip": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Victory.cs [Design]",
-              "RelativeToolTip": "View\\Victory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:37:53.465Z",
+              "WhenOpened": "2024-11-24T08:26:54.055Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Main.cs",
-              "RelativeDocumentMoniker": "View\\Main.cs",
-              "ToolTip": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Main.cs",
-              "RelativeToolTip": "View\\Main.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwFAAAACvAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs [Design]",
+              "RelativeToolTip": "MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:35:22.045Z",
+              "WhenOpened": "2024-11-27T10:29:19.093Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T08:29:30.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LanguagePredictor.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\LanguagePredictor.cs",
+              "RelativeDocumentMoniker": "LanguagePredictor.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\LanguagePredictor.cs*",
+              "RelativeToolTip": "LanguagePredictor.cs*",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwB0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T14:30:01.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "VersaTula.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.cs",
+              "RelativeDocumentMoniker": "VersaTula.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.cs",
+              "RelativeToolTip": "VersaTula.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T14:20:42.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameOver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\GameOver.cs",
+              "RelativeDocumentMoniker": "View\\GameOver.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\GameOver.cs [Design]",
+              "RelativeToolTip": "View\\GameOver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:32:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
               "RelativeDocumentMoniker": "View\\Main.cs",
-              "ToolTip": "C:\\Users\\Leonilo Molar\\source\\repos\\Language-Classification\\View\\Main.cs [Design]",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs [Design]",
               "RelativeToolTip": "View\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:27:35.461Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-27T10:32:10.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
+              "RelativeDocumentMoniker": "View\\Main.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
+              "RelativeToolTip": "View\\Main.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wEoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:32:24.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Help.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Help.cs",
+              "RelativeDocumentMoniker": "View\\Help.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Help.cs [Design]",
+              "RelativeToolTip": "View\\Help.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:32:08.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VersaTula.resx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.resx",
+              "RelativeDocumentMoniker": "VersaTula.resx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\VersaTula.resx",
+              "RelativeToolTip": "VersaTula.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-11-24T08:29:43.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\Note.cs",
+              "RelativeDocumentMoniker": "Note.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\Note.cs",
+              "RelativeToolTip": "Note.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:00:01.715Z"
             }
           ]
         }
