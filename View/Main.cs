@@ -133,7 +133,7 @@
         {
             bool isWrong = false;
             Submit.Enabled = false;
-                if (round <= 2)
+                if (round <= 8)
                 {
                     inputTextBox.Enabled = true;
                     timer.Stop();
@@ -177,7 +177,7 @@
                 }
 
 
-                if (round > 2 && !isWrong)
+                if (round > 8 && !isWrong)
                 {
                     roundNum.Text = "0";
                     placeholder_language.Text = "";

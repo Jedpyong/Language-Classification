@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Language-Classification\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|c:\\users\\user\\source\\repos\\language-classification\\view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|solutionrelative:view\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3E302FB-6EA2-4EBF-ACBC-185CB69C27CD}|LanguageClassificationApp.csproj|C:\\Users\\USER\\source\\repos\\Language-Classification\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -92,7 +92,7 @@
         },
         {
           "DockedWidth": 303,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,17 +107,8 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs",
-              "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwCgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:08:43.325Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -137,8 +128,8 @@
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
               "RelativeDocumentMoniker": "View\\Main.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs [Design]*",
-              "RelativeToolTip": "View\\Main.cs [Design]*",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs [Design]",
+              "RelativeToolTip": "View\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T10:32:10.795Z",
               "EditorCaption": " [Design]"
@@ -157,20 +148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
               "RelativeDocumentMoniker": "View\\Main.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs*",
-              "RelativeToolTip": "View\\Main.cs*",
-              "ViewState": "AQIAADwAAAAAAAAAAAAgwKcAAAAnAAAA",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\Main.cs",
+              "RelativeToolTip": "View\\Main.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T10:32:24.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameOver.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\GameOver.cs",
               "RelativeDocumentMoniker": "View\\GameOver.cs",
@@ -182,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameOver.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\View\\GameOver.cs",
               "RelativeDocumentMoniker": "View\\GameOver.cs",
@@ -191,6 +182,19 @@
               "ViewState": "AQIAAAUAAAAAAAAAAAAIwBYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T07:14:27.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Language-Classification\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwCgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:08:43.325Z",
               "EditorCaption": ""
             },
             {
@@ -205,10 +209,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T07:09:05.826Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
