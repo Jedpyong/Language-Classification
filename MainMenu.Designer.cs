@@ -38,11 +38,12 @@
             // 
             this.titleLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Cooper Black", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Font = new System.Drawing.Font("Sitka Heading", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.titleLabel.Location = new System.Drawing.Point(441, 247);
+            this.titleLabel.Location = new System.Drawing.Point(280, 111);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(684, 137);
+            this.titleLabel.Size = new System.Drawing.Size(482, 139);
             this.titleLabel.TabIndex = 1;
             this.titleLabel.Text = "VersaTula";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -52,9 +53,10 @@
             this.playButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.playButton.BaseColor = System.Drawing.Color.White;
             this.playButton.Image = ((System.Drawing.Image)(resources.GetObject("playButton.Image")));
-            this.playButton.Location = new System.Drawing.Point(732, 387);
+            this.playButton.Location = new System.Drawing.Point(464, 252);
+            this.playButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.playButton.Name = "playButton";
-            this.playButton.Size = new System.Drawing.Size(120, 120);
+            this.playButton.Size = new System.Drawing.Size(117, 108);
             this.playButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.playButton.TabIndex = 2;
             this.playButton.TabStop = false;
@@ -63,12 +65,13 @@
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1578, 821);
+            this.ClientSize = new System.Drawing.Size(1052, 534);
             this.Controls.Add(this.playButton);
             this.Controls.Add(this.titleLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainMenu";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

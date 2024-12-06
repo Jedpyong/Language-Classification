@@ -39,22 +39,24 @@
             // 
             // gunaPanel1
             // 
-            this.gunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(163)))), ((int)(((byte)(115)))));
+            this.gunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
             this.gunaPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gunaPanel1.Location = new System.Drawing.Point(0, 741);
+            this.gunaPanel1.Location = new System.Drawing.Point(0, 642);
+            this.gunaPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(1578, 80);
+            this.gunaPanel1.Size = new System.Drawing.Size(1358, 52);
             this.gunaPanel1.TabIndex = 1;
             // 
             // gunaPanelTop
             // 
-            this.gunaPanelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(163)))), ((int)(((byte)(115)))));
+            this.gunaPanelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
             this.gunaPanelTop.Controls.Add(this.exitBttn);
             this.gunaPanelTop.Controls.Add(this.gunaLabel1);
             this.gunaPanelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaPanelTop.Location = new System.Drawing.Point(0, 0);
+            this.gunaPanelTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gunaPanelTop.Name = "gunaPanelTop";
-            this.gunaPanelTop.Size = new System.Drawing.Size(1578, 80);
+            this.gunaPanelTop.Size = new System.Drawing.Size(1358, 52);
             this.gunaPanelTop.TabIndex = 0;
             // 
             // exitBttn
@@ -62,43 +64,47 @@
             this.exitBttn.Dock = System.Windows.Forms.DockStyle.Right;
             this.exitBttn.Image = ((System.Drawing.Image)(resources.GetObject("exitBttn.Image")));
             this.exitBttn.ImageSize = new System.Drawing.Size(40, 40);
-            this.exitBttn.Location = new System.Drawing.Point(1501, 0);
+            this.exitBttn.Location = new System.Drawing.Point(1307, 0);
+            this.exitBttn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exitBttn.Name = "exitBttn";
             this.exitBttn.OnHoverImage = null;
             this.exitBttn.OnHoverImageOffset = new System.Drawing.Point(0, 0);
-            this.exitBttn.Size = new System.Drawing.Size(77, 80);
+            this.exitBttn.Size = new System.Drawing.Size(51, 52);
             this.exitBttn.TabIndex = 0;
             this.exitBttn.Click += new System.EventHandler(this.exitBttn_Click);
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(39, 20);
+            this.gunaLabel1.Font = new System.Drawing.Font("Sitka Heading", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel1.Location = new System.Drawing.Point(6, 6);
+            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(204, 41);
+            this.gunaLabel1.Size = new System.Drawing.Size(137, 39);
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "VersaTula";
             // 
             // placeholder_panel
             // 
             this.placeholder_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.placeholder_panel.Location = new System.Drawing.Point(0, 80);
+            this.placeholder_panel.Location = new System.Drawing.Point(0, 52);
+            this.placeholder_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.placeholder_panel.Name = "placeholder_panel";
-            this.placeholder_panel.Size = new System.Drawing.Size(1578, 661);
+            this.placeholder_panel.Size = new System.Drawing.Size(1358, 590);
             this.placeholder_panel.TabIndex = 2;
             // 
-            // Form1
+            // HomeScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1578, 821);
+            this.ClientSize = new System.Drawing.Size(1358, 694);
             this.Controls.Add(this.placeholder_panel);
             this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.gunaPanelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "HomeScreen";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
