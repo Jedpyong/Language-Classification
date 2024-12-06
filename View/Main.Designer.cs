@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.inputTextBox = new Guna.UI.WinForms.GunaTextBox();
             this.languageLabel = new Guna.UI.WinForms.GunaLabel();
-            this.submitBttn = new Guna.UI.WinForms.GunaButton();
+            this.startBttn = new Guna.UI.WinForms.GunaButton();
             this.helpBttn = new Guna.UI.WinForms.GunaLabel();
             this.gameLabels = new Guna.UI.WinForms.GunaPanel();
             this.timerLabel = new Guna.UI.WinForms.GunaLabel();
@@ -42,13 +42,20 @@
             this.roundNum = new Guna.UI.WinForms.GunaLabel();
             this.Submit = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel2 = new Guna.UI.WinForms.GunaPanel();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.lastWordLabel = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
+            this.gunaElipsePanel2 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.stanzaLabel = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gameLabels.SuspendLayout();
             this.gunaPanel1.SuspendLayout();
             this.gunaPanel2.SuspendLayout();
             this.gunaElipsePanel1.SuspendLayout();
+            this.gunaPanel3.SuspendLayout();
+            this.gunaElipsePanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // inputTextBox
@@ -74,7 +81,6 @@
             this.inputTextBox.TabIndex = 0;
             this.inputTextBox.Text = "Enter your text here...";
             this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
-            this.inputTextBox.Click += new System.EventHandler(this.inputTextBox_Click);
             this.inputTextBox.Enter += new System.EventHandler(this.inputTextBox_Enter);
             this.inputTextBox.Leave += new System.EventHandler(this.inputTextBox_Leave);
             // 
@@ -91,32 +97,32 @@
             this.languageLabel.TabIndex = 1;
             this.languageLabel.Text = "Language Required:";
             // 
-            // submitBttn
+            // startBttn
             // 
-            this.submitBttn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.submitBttn.AnimationHoverSpeed = 0.07F;
-            this.submitBttn.AnimationSpeed = 0.03F;
-            this.submitBttn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
-            this.submitBttn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
-            this.submitBttn.BorderSize = 1;
-            this.submitBttn.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.submitBttn.Image = null;
-            this.submitBttn.ImageSize = new System.Drawing.Size(20, 20);
-            this.submitBttn.Location = new System.Drawing.Point(328, 573);
-            this.submitBttn.Margin = new System.Windows.Forms.Padding(2);
-            this.submitBttn.Name = "submitBttn";
-            this.submitBttn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
-            this.submitBttn.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
-            this.submitBttn.OnHoverForeColor = System.Drawing.Color.White;
-            this.submitBttn.OnHoverImage = null;
-            this.submitBttn.OnPressedColor = System.Drawing.Color.Tan;
-            this.submitBttn.Radius = 10;
-            this.submitBttn.Size = new System.Drawing.Size(143, 46);
-            this.submitBttn.TabIndex = 2;
-            this.submitBttn.Text = "Start";
-            this.submitBttn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.submitBttn.Click += new System.EventHandler(this.submitBttn_Click);
+            this.startBttn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.startBttn.AnimationHoverSpeed = 0.07F;
+            this.startBttn.AnimationSpeed = 0.03F;
+            this.startBttn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
+            this.startBttn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
+            this.startBttn.BorderSize = 1;
+            this.startBttn.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.startBttn.Image = null;
+            this.startBttn.ImageSize = new System.Drawing.Size(20, 20);
+            this.startBttn.Location = new System.Drawing.Point(328, 573);
+            this.startBttn.Margin = new System.Windows.Forms.Padding(2);
+            this.startBttn.Name = "startBttn";
+            this.startBttn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
+            this.startBttn.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
+            this.startBttn.OnHoverForeColor = System.Drawing.Color.White;
+            this.startBttn.OnHoverImage = null;
+            this.startBttn.OnPressedColor = System.Drawing.Color.Tan;
+            this.startBttn.Radius = 10;
+            this.startBttn.Size = new System.Drawing.Size(143, 46);
+            this.startBttn.TabIndex = 2;
+            this.startBttn.Text = "Start";
+            this.startBttn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.startBttn.Click += new System.EventHandler(this.startBttn_Click);
             // 
             // helpBttn
             // 
@@ -242,12 +248,35 @@
             // gunaPanel2
             // 
             this.gunaPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gunaPanel2.Controls.Add(this.gunaElipsePanel1);
             this.gunaPanel2.Controls.Add(this.gunaLabel2);
-            this.gunaPanel2.Location = new System.Drawing.Point(764, 294);
+            this.gunaPanel2.Location = new System.Drawing.Point(788, 366);
             this.gunaPanel2.Name = "gunaPanel2";
             this.gunaPanel2.Size = new System.Drawing.Size(364, 112);
             this.gunaPanel2.TabIndex = 9;
+            // 
+            // gunaElipsePanel1
+            // 
+            this.gunaElipsePanel1.BackColor = System.Drawing.Color.OldLace;
+            this.gunaElipsePanel1.BaseColor = System.Drawing.Color.White;
+            this.gunaElipsePanel1.Controls.Add(this.lastWordLabel);
+            this.gunaElipsePanel1.Location = new System.Drawing.Point(99, 54);
+            this.gunaElipsePanel1.Name = "gunaElipsePanel1";
+            this.gunaElipsePanel1.Radius = 10;
+            this.gunaElipsePanel1.Size = new System.Drawing.Size(190, 44);
+            this.gunaElipsePanel1.TabIndex = 2;
+            // 
+            // lastWordLabel
+            // 
+            this.lastWordLabel.AutoSize = true;
+            this.lastWordLabel.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastWordLabel.Location = new System.Drawing.Point(78, 9);
+            this.lastWordLabel.Name = "lastWordLabel";
+            this.lastWordLabel.Size = new System.Drawing.Size(38, 21);
+            this.lastWordLabel.TabIndex = 1;
+            this.lastWordLabel.Text = "null";
+            this.lastWordLabel.Visible = false;
             // 
             // gunaLabel2
             // 
@@ -260,38 +289,72 @@
             this.gunaLabel2.TabIndex = 0;
             this.gunaLabel2.Text = "Preview of the Last Inputted Word";
             // 
+            // gunaPanel3
+            // 
+            this.gunaPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gunaPanel3.Controls.Add(this.gunaLabel3);
+            this.gunaPanel3.Controls.Add(this.gunaElipsePanel2);
+            this.gunaPanel3.Controls.Add(this.gunaLabel5);
+            this.gunaPanel3.Location = new System.Drawing.Point(788, 219);
+            this.gunaPanel3.Name = "gunaPanel3";
+            this.gunaPanel3.Size = new System.Drawing.Size(364, 112);
+            this.gunaPanel3.TabIndex = 10;
+            // 
+            // gunaElipsePanel2
+            // 
+            this.gunaElipsePanel2.BackColor = System.Drawing.Color.OldLace;
+            this.gunaElipsePanel2.BaseColor = System.Drawing.Color.White;
+            this.gunaElipsePanel2.Controls.Add(this.stanzaLabel);
+            this.gunaElipsePanel2.Location = new System.Drawing.Point(163, 34);
+            this.gunaElipsePanel2.Name = "gunaElipsePanel2";
+            this.gunaElipsePanel2.Radius = 10;
+            this.gunaElipsePanel2.Size = new System.Drawing.Size(79, 44);
+            this.gunaElipsePanel2.TabIndex = 2;
+            // 
+            // stanzaLabel
+            // 
+            this.stanzaLabel.AutoSize = true;
+            this.stanzaLabel.Font = new System.Drawing.Font("Segoe UI Variable Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stanzaLabel.Location = new System.Drawing.Point(17, 8);
+            this.stanzaLabel.Name = "stanzaLabel";
+            this.stanzaLabel.Size = new System.Drawing.Size(37, 26);
+            this.stanzaLabel.TabIndex = 1;
+            this.stanzaLabel.Text = "1st";
+            // 
+            // gunaLabel5
+            // 
+            this.gunaLabel5.AutoSize = true;
+            this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI Variable Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel5.Location = new System.Drawing.Point(13, 41);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(144, 26);
+            this.gunaLabel5.TabIndex = 0;
+            this.gunaLabel5.Text = "Writing for the";
+            // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.Location = new System.Drawing.Point(78, 9);
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Variable Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel3.Location = new System.Drawing.Point(248, 41);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(38, 21);
-            this.gunaLabel3.TabIndex = 1;
-            this.gunaLabel3.Text = "null";
-            this.gunaLabel3.Visible = false;
-            // 
-            // gunaElipsePanel1
-            // 
-            this.gunaElipsePanel1.BackColor = System.Drawing.Color.OldLace;
-            this.gunaElipsePanel1.BaseColor = System.Drawing.Color.White;
-            this.gunaElipsePanel1.Controls.Add(this.gunaLabel3);
-            this.gunaElipsePanel1.Location = new System.Drawing.Point(99, 54);
-            this.gunaElipsePanel1.Name = "gunaElipsePanel1";
-            this.gunaElipsePanel1.Radius = 10;
-            this.gunaElipsePanel1.Size = new System.Drawing.Size(190, 44);
-            this.gunaElipsePanel1.TabIndex = 2;
+            this.gunaLabel3.Size = new System.Drawing.Size(74, 26);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "stanza.";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gunaPanel3);
             this.Controls.Add(this.gunaPanel2);
             this.Controls.Add(this.Submit);
             this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.gameLabels);
             this.Controls.Add(this.helpBttn);
-            this.Controls.Add(this.submitBttn);
+            this.Controls.Add(this.startBttn);
             this.Controls.Add(this.inputTextBox);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
@@ -304,6 +367,10 @@
             this.gunaPanel2.PerformLayout();
             this.gunaElipsePanel1.ResumeLayout(false);
             this.gunaElipsePanel1.PerformLayout();
+            this.gunaPanel3.ResumeLayout(false);
+            this.gunaPanel3.PerformLayout();
+            this.gunaElipsePanel2.ResumeLayout(false);
+            this.gunaElipsePanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,7 +380,7 @@
 
         private Guna.UI.WinForms.GunaTextBox inputTextBox;
         private Guna.UI.WinForms.GunaLabel languageLabel;
-        private Guna.UI.WinForms.GunaButton submitBttn;
+        private Guna.UI.WinForms.GunaButton startBttn;
         private Guna.UI.WinForms.GunaLabel helpBttn;
         private Guna.UI.WinForms.GunaPanel gameLabels;
         private System.Windows.Forms.Label placeholder_language;
@@ -324,8 +391,13 @@
         private Guna.UI.WinForms.GunaLabel roundNum;
         private Guna.UI.WinForms.GunaButton Submit;
         private Guna.UI.WinForms.GunaPanel gunaPanel2;
-        private Guna.UI.WinForms.GunaLabel gunaLabel3;
+        private Guna.UI.WinForms.GunaLabel lastWordLabel;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel1;
+        private Guna.UI.WinForms.GunaPanel gunaPanel3;
+        private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel2;
+        private Guna.UI.WinForms.GunaLabel stanzaLabel;
+        private Guna.UI.WinForms.GunaLabel gunaLabel5;
+        private Guna.UI.WinForms.GunaLabel gunaLabel3;
     }
 }

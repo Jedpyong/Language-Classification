@@ -12,9 +12,11 @@ namespace LanguageClassificationApp.View
 {
     public partial class Victory : UserControl
     {
+       
         public Victory()
         {
             InitializeComponent();
+            
         }
 
         public void SetPoem(string poem)
@@ -29,7 +31,5 @@ namespace LanguageClassificationApp.View
             home.Show();
             this.Hide();
         }
-
-
     }
 }

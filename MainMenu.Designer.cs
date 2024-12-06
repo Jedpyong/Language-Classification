@@ -54,9 +54,9 @@
             this.playButton.BaseColor = System.Drawing.Color.White;
             this.playButton.Image = ((System.Drawing.Image)(resources.GetObject("playButton.Image")));
             this.playButton.Location = new System.Drawing.Point(464, 252);
-            this.playButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.playButton.Margin = new System.Windows.Forms.Padding(2);
             this.playButton.Name = "playButton";
-            this.playButton.Size = new System.Drawing.Size(117, 108);
+            this.playButton.Size = new System.Drawing.Size(90, 90);
             this.playButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.playButton.TabIndex = 2;
             this.playButton.TabStop = false;
@@ -71,7 +71,7 @@
             this.Controls.Add(this.playButton);
             this.Controls.Add(this.titleLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenu";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
