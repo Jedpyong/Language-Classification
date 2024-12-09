@@ -22,5 +22,10 @@ namespace LanguageClassificationApp.View
         {
             this.Hide();
         }
+
+        private void gunaLabel6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

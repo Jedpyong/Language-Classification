@@ -46,10 +46,10 @@
             this.lastWordLabel = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipsePanel2 = new Guna.UI.WinForms.GunaElipsePanel();
             this.stanzaLabel = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gameLabels.SuspendLayout();
             this.gunaPanel1.SuspendLayout();
             this.gunaPanel2.SuspendLayout();
@@ -301,6 +301,17 @@
             this.gunaPanel3.Size = new System.Drawing.Size(364, 112);
             this.gunaPanel3.TabIndex = 10;
             // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Variable Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel3.Location = new System.Drawing.Point(248, 41);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(74, 26);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "stanza.";
+            // 
             // gunaElipsePanel2
             // 
             this.gunaElipsePanel2.BackColor = System.Drawing.Color.OldLace;
@@ -332,17 +343,6 @@
             this.gunaLabel5.Size = new System.Drawing.Size(144, 26);
             this.gunaLabel5.TabIndex = 0;
             this.gunaLabel5.Text = "Writing for the";
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Variable Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.gunaLabel3.Location = new System.Drawing.Point(248, 41);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(74, 26);
-            this.gunaLabel3.TabIndex = 3;
-            this.gunaLabel3.Text = "stanza.";
             // 
             // Main
             // 
