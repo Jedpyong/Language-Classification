@@ -48,6 +48,7 @@
             // 
             // gunaLabel3
             // 
+            this.gunaLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -61,10 +62,11 @@
             // 
             // backBttn
             // 
+            this.backBttn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.backBttn.BaseColor = System.Drawing.Color.White;
             this.backBttn.Image = ((System.Drawing.Image)(resources.GetObject("backBttn.Image")));
             this.backBttn.Location = new System.Drawing.Point(7, 6);
-            this.backBttn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.backBttn.Margin = new System.Windows.Forms.Padding(2);
             this.backBttn.Name = "backBttn";
             this.backBttn.Size = new System.Drawing.Size(40, 39);
             this.backBttn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +82,7 @@
             this.Controls.Add(this.backBttn);
             this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.placeholder_poem);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Victory";
             this.Size = new System.Drawing.Size(1052, 436);
             ((System.ComponentModel.ISupportInitialize)(this.backBttn)).EndInit();

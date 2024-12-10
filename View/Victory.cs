@@ -12,11 +12,11 @@ namespace LanguageClassificationApp.View
 {
     public partial class Victory : UserControl
     {
-       
         public Victory()
         {
             InitializeComponent();
-            
+            this.Resize += Victory_Resize; 
+            Victory_Resize(this, EventArgs.Empty);
         }
 
         public void SetPoem(string poem)
@@ -30,6 +30,15 @@ namespace LanguageClassificationApp.View
             HomeScreen home = new HomeScreen();
             home.Show();
             this.Hide();
+        }
+
+        private void Victory_Resize(object sender, EventArgs e)
+        {
+            placeholder_poem.Left = (this.ClientSize.Width - placeholder_poem.Width) / 2;
+            placeholder_poem.Top = (this.ClientSize.Height - placeholder_poem.Height) / 2 - 50;
+            
+            backBttn.Left = 10;
+            backBttn.Top = 10;
         }
     }
 }

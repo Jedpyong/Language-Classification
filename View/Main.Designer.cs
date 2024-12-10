@@ -60,7 +60,7 @@
             // 
             // inputTextBox
             // 
-            this.inputTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.inputTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.inputTextBox.BaseColor = System.Drawing.Color.White;
             this.inputTextBox.BorderColor = System.Drawing.Color.Silver;
             this.inputTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -70,14 +70,14 @@
             this.inputTextBox.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.inputTextBox.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inputTextBox.ForeColor = System.Drawing.Color.DarkGray;
-            this.inputTextBox.Location = new System.Drawing.Point(121, 219);
+            this.inputTextBox.Location = new System.Drawing.Point(137, 336);
             this.inputTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.inputTextBox.MultiLine = true;
             this.inputTextBox.Name = "inputTextBox";
             this.inputTextBox.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.inputTextBox.PasswordChar = '\0';
-            this.inputTextBox.Radius = 20;
-            this.inputTextBox.Size = new System.Drawing.Size(571, 302);
+            this.inputTextBox.Radius = 15;
+            this.inputTextBox.Size = new System.Drawing.Size(571, 74);
             this.inputTextBox.TabIndex = 0;
             this.inputTextBox.Text = "Enter your text here...";
             this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
@@ -86,7 +86,7 @@
             // 
             // languageLabel
             // 
-            this.languageLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.languageLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.languageLabel.AutoSize = true;
             this.languageLabel.Font = new System.Drawing.Font("Segoe UI Variable Display", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.languageLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
@@ -99,7 +99,7 @@
             // 
             // startBttn
             // 
-            this.startBttn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.startBttn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.startBttn.AnimationHoverSpeed = 0.07F;
             this.startBttn.AnimationSpeed = 0.03F;
             this.startBttn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
@@ -109,7 +109,7 @@
             this.startBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.startBttn.Image = null;
             this.startBttn.ImageSize = new System.Drawing.Size(20, 20);
-            this.startBttn.Location = new System.Drawing.Point(328, 573);
+            this.startBttn.Location = new System.Drawing.Point(357, 449);
             this.startBttn.Margin = new System.Windows.Forms.Padding(2);
             this.startBttn.Name = "startBttn";
             this.startBttn.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
@@ -141,12 +141,12 @@
             // 
             // gameLabels
             // 
-            this.gameLabels.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.gameLabels.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gameLabels.Controls.Add(this.timerLabel);
             this.gameLabels.Controls.Add(this.placeholder_language);
             this.gameLabels.Controls.Add(this.languageLabel);
             this.gameLabels.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gameLabels.Location = new System.Drawing.Point(121, 169);
+            this.gameLabels.Location = new System.Drawing.Point(137, 250);
             this.gameLabels.Margin = new System.Windows.Forms.Padding(2);
             this.gameLabels.Name = "gameLabels";
             this.gameLabels.Size = new System.Drawing.Size(571, 36);
@@ -195,11 +195,11 @@
             // 
             // gunaPanel1
             // 
-            this.gunaPanel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.gunaPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaPanel1.Controls.Add(this.roundNum);
             this.gunaPanel1.Controls.Add(this.gunaLabel1);
             this.gunaPanel1.Font = new System.Drawing.Font("Segoe UI Variable Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaPanel1.Location = new System.Drawing.Point(316, 105);
+            this.gunaPanel1.Location = new System.Drawing.Point(344, 189);
             this.gunaPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(195, 40);
@@ -220,7 +220,7 @@
             // 
             // Submit
             // 
-            this.Submit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Submit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Submit.AnimationHoverSpeed = 0.07F;
             this.Submit.AnimationSpeed = 0.03F;
             this.Submit.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(89)))), ((int)(((byte)(73)))));
@@ -230,7 +230,7 @@
             this.Submit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.Submit.Image = null;
             this.Submit.ImageSize = new System.Drawing.Size(20, 20);
-            this.Submit.Location = new System.Drawing.Point(328, 573);
+            this.Submit.Location = new System.Drawing.Point(357, 449);
             this.Submit.Margin = new System.Windows.Forms.Padding(2);
             this.Submit.Name = "Submit";
             this.Submit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(3)))));
@@ -247,11 +247,11 @@
             // 
             // gunaPanel2
             // 
-            this.gunaPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gunaPanel2.Controls.Add(this.gunaElipsePanel1);
             this.gunaPanel2.Controls.Add(this.gunaLabel2);
-            this.gunaPanel2.Location = new System.Drawing.Point(788, 366);
+            this.gunaPanel2.Location = new System.Drawing.Point(783, 336);
             this.gunaPanel2.Name = "gunaPanel2";
             this.gunaPanel2.Size = new System.Drawing.Size(364, 112);
             this.gunaPanel2.TabIndex = 9;
@@ -291,12 +291,12 @@
             // 
             // gunaPanel3
             // 
-            this.gunaPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPanel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gunaPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gunaPanel3.Controls.Add(this.gunaLabel3);
             this.gunaPanel3.Controls.Add(this.gunaElipsePanel2);
             this.gunaPanel3.Controls.Add(this.gunaLabel5);
-            this.gunaPanel3.Location = new System.Drawing.Point(788, 219);
+            this.gunaPanel3.Location = new System.Drawing.Point(783, 189);
             this.gunaPanel3.Name = "gunaPanel3";
             this.gunaPanel3.Size = new System.Drawing.Size(364, 112);
             this.gunaPanel3.TabIndex = 10;
