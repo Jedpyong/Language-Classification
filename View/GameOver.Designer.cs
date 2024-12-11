@@ -33,10 +33,11 @@
             this.retryBttn = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.language2Label = new Guna.UI.WinForms.GunaLabel();
             this.panelLabel = new Guna.UI.WinForms.GunaPanel();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.language1Label = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             ((System.ComponentModel.ISupportInitialize)(this.retryBttn)).BeginInit();
             this.panelLabel.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +94,17 @@
             this.panelLabel.Size = new System.Drawing.Size(528, 46);
             this.panelLabel.TabIndex = 8;
             // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel1.Location = new System.Drawing.Point(361, 11);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(166, 21);
+            this.gunaLabel1.TabIndex = 10;
+            this.gunaLabel1.Text = ". Give it another shot!";
+            // 
             // gunaLabel4
             // 
             this.gunaLabel4.AutoSize = true;
@@ -126,27 +138,30 @@
             this.gunaLabel2.TabIndex = 9;
             this.gunaLabel2.Text = "Close! That’s ";
             // 
-            // gunaLabel1
+            // gunaLabel3
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
-            this.gunaLabel1.Location = new System.Drawing.Point(361, 11);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(166, 21);
-            this.gunaLabel1.TabIndex = 10;
-            this.gunaLabel1.Text = ". Give it another shot!";
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Variable Display", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(63)))), ((int)(((byte)(58)))));
+            this.gunaLabel3.Location = new System.Drawing.Point(615, 418);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(149, 36);
+            this.gunaLabel3.TabIndex = 11;
+            this.gunaLabel3.Text = "Time\'s Up!";
+            this.gunaLabel3.Visible = false;
             // 
             // GameOver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.panelLabel);
             this.Controls.Add(this.retryBttn);
             this.Controls.Add(this.gameOverLabel);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameOver";
             this.Size = new System.Drawing.Size(1326, 709);
+            this.Load += new System.EventHandler(this.GameOver_Load);
             this.Resize += new System.EventHandler(this.GameOver_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.retryBttn)).EndInit();
             this.panelLabel.ResumeLayout(false);
@@ -166,5 +181,6 @@
         private Guna.UI.WinForms.GunaLabel language1Label;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel3;
     }
 }

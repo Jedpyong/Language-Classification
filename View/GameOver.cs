@@ -35,6 +35,15 @@ namespace LanguageClassificationApp.View
             homeScreen.Show();
             this.Hide();
         }
+        public void timeOut(bool bol)
+        {
+            if (bol)
+            {
+                this.panelLabel.Visible = false;
+                this.gunaLabel3.Visible = true;
+            }
+           
+        }
 
         
 
@@ -48,6 +57,11 @@ namespace LanguageClassificationApp.View
 
             panelLabel.Left = (this.ClientSize.Width - panelLabel.Width) / 2;
             panelLabel.Top = gameOverLabel.Top + gameOverLabel.Height + 10;
+        }
+
+        private void GameOver_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

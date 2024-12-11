@@ -72,6 +72,7 @@
                 timer.Stop();
                 GameOver gameOver = new GameOver();
                 gameOver.Dock = DockStyle.Fill;
+                gameOver.timeOut(true);
                 this.Controls.Add(gameOver);
                 gameOver.BringToFront();
             }
