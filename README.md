@@ -9,4 +9,4 @@ How to use?
 
 -After running the flask API, copy the server URL provided then change the server URL used in the LanguagePredictor.cs file in visual studios 2022.
 
-NOTE: This app was not fully deployed since in this subject, we are more focused on machine learning process such as gathering, preprocessing and training machine learning models while experimenting on different approaches such as CNN, FFNN, Naive Bayes etc. which greatly consumed much of our limited time. 
+NOTE: This app was not fully deployed since in this subject, we are more focused on machine learning process such as gathering and preprocessing data, and training machine learning models while experimenting on different approaches such as CNN, FFNN, Naive Bayes etc. which greatly consumed much of our limited time. 
